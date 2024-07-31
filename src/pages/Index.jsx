@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import WavyBackground from "@/components/WavyBackground";
+import GlobalUsersSection from "@/components/GlobalUsersSection";
 
 const Index = () => {
   return (
@@ -50,6 +51,7 @@ const Index = () => {
           </div>
         </div>
       </main>
+      <GlobalUsersSection />
     </div>
   );
 };
