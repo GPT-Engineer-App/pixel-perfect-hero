@@ -21,6 +21,11 @@ module.exports = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
+        velox: {
+          background: "#e6e6e1",
+          text: "#333333",
+          accent: "#ff6b35",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
