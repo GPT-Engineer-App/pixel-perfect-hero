@@ -1,11 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle, Zap, Users, BarChart } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="bg-[#f5f5f0] min-h-screen">
-      <header className="bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+    <div className="bg-[#f0f0e8] min-h-screen">
+      <header className="bg-transparent py-6">
+        <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
             <svg className="w-8 h-8 text-[#ff6b35]" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -15,28 +14,30 @@ const Index = () => {
           <nav className="hidden md:flex space-x-6">
             <a href="#services" className="text-[#333333] hover:text-[#ff6b35]">Services</a>
             <a href="#about" className="text-[#333333] hover:text-[#ff6b35]">About Us</a>
-            <a href="#testimonials" className="text-[#333333] hover:text-[#ff6b35]">Testimonials</a>
+            <a href="#blog" className="text-[#333333] hover:text-[#ff6b35]">Blog</a>
           </nav>
-          <Button className="bg-[#ff6b35] text-white hover:bg-[#e65a2a]">Book a Demo</Button>
+          <Button className="bg-black text-white hover:bg-gray-800">Book a call</Button>
         </div>
       </header>
 
       <main>
-        <section className="container mx-auto px-4 py-20 text-center">
+        <section className="container mx-auto px-4 py-20">
           <h1 className="text-5xl md:text-6xl font-bold text-[#333333] mb-4">
-            Build Business Foundations with<br />
-            <span className="text-[#ff6b35]">Next-Gen Automated Systems</span>
+            Build Business Foundations with next-gen<br />
+            <span className="text-[#ff6b35]">Automated systems</span>
           </h1>
-          <p className="text-[#666666] max-w-3xl mx-auto mb-8 text-lg">
-            Scale your company with ease using our end-to-end administrative automation. 
-            Filter leads intelligently and enhance customer service with AI-powered responses.
+          <p className="text-[#666666] max-w-3xl mb-8 text-lg">
+            Build a system in which your administration will be processed from start to finish so your company can scale with ease.
+            Automatically filter your leads to ensure you are only spending time after most qualified leads.
+            Improve customer service with an AI trained on all your previous customer requests, providing instant and accurate responses.
           </p>
-          <Button className="bg-[#ff6b35] text-white hover:bg-[#e65a2a] text-lg px-8 py-4">
-            Get Started <ArrowRight className="ml-2" />
-          </Button>
         </section>
+      </main>
+    </div>
+  );
+};
 
-        <section id="services" className="bg-white py-20">
+export default Index;
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center text-[#333333] mb-12">Our Services</h2>
             <div className="grid md:grid-cols-3 gap-8">
