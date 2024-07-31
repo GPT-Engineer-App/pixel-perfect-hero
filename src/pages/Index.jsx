@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Zap, Users, BarChart, CheckCircle } from "lucide-react";
 
 const Index = () => {
   return (
@@ -32,12 +33,8 @@ const Index = () => {
             Improve customer service with an AI trained on all your previous customer requests, providing instant and accurate responses.
           </p>
         </section>
-      </main>
-    </div>
-  );
-};
 
-export default Index;
+        <section id="services" className="py-20 bg-[#f0f0e8]">
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center text-[#333333] mb-12">Our Services</h2>
             <div className="grid md:grid-cols-3 gap-8">
